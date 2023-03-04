@@ -150,7 +150,7 @@ const App = () => {
 				</MensajeError>}
 				<ContenedorBotonCentrado>
 					<Boton type="submit">Enviar</Boton>
-					{formularioValido === true && <MensajeExito>Formulario enviado exitosamente!</MensajeExito>}
+					{formularioValido === true && <MensajeExito><strong>Formulario enviado exitosamente!</strong></MensajeExito>}
 				</ContenedorBotonCentrado>
 			</Formulario>
 		</main>
